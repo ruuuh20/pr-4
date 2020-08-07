@@ -1,0 +1,43 @@
+.footer {
+  background: $lightBlack;
+  padding: 4rem 1rem;
+
+  .row {
+    line-height: 2;
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .copy-info {
+    padding: 1rem 0;
+    span {
+      color: $white;
+      font-size: 11px;
+    }
+  }
+
+  .logo-footer {
+    margin: 1rem 0;
+    width: 20%;
+    display: block;
+    svg {
+    }
+  }
+  .footer-section {
+    display: block;
+    .section-label {
+      text-transform: uppercase;
+      color: $white;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li a {
+        text-decoration: none;
+        color: $white;
+        margin: 0;
+        font-size: 12px;
+      }
+    }
+  }
+}

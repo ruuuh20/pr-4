@@ -1,0 +1,64 @@
+header {
+  width: 100%;
+  height: 90px;
+
+  .row {
+    padding-top: 1.5rem;
+  }
+
+  .logo {
+    a {
+      font-size: 2rem;
+      text-decoration: none;
+      letter-spacing: 0.01rem;
+    }
+  }
+
+  .sub-text {
+    margin-left: 20px;
+    a {
+      font-size: 0.75rem;
+      text-decoration: none;
+      color: rgb(43, 43, 43);
+    }
+  }
+
+  .search-wrapper {
+    form {
+      .border {
+        border-bottom: rgba(43, 43, 43, 0.2) solid 1px;
+
+        input {
+          border: 0;
+          background: transparent;
+        }
+
+        label {
+          position: absolute;
+          pointer-events: none;
+          left: 0;
+          top: 0;
+          opacity: 0.5;
+          display: block;
+          height: 2rem;
+          line-height: 2rem;
+          padding: 0;
+          margin: 0;
+          border: 0;
+          text-align: inherit;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .categories-menu {
+    position: absolute;
+    right: 100px;
+  }
+
+  .hamburger-menu {
+    position: absolute;
+    right: 50px;
+  }
+}

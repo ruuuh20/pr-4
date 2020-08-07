@@ -1,3 +1,13 @@
+## Overview
+
+This is a mockup redesign of The New York Times Education section/page, inspired by the layout of itsnicethat.com.
+
+The goal of this series is to rebuild education-focused websites using layout designs of other sites that I find inspiration from.
+
+All content comes from https://www.nytimes.com/section/education
+
+Built with Gatsby
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
